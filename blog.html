@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias - Rad Pathway Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .blog-header {
+            background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)), url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+            color: white;
+            padding: 60px 0;
+            margin-bottom: 40px;
+        }
+        .blog-card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            margin-bottom: 30px;
+        }
+        .blog-card:hover {
+            transform: translateY(-5px);
+        }
+        .blog-card img {
+            border-radius: 10px 10px 0 0;
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+        }
+        .blog-card .card-body {
+            padding: 1.5rem;
+        }
+        .blog-category {
+            color: var(--secondary-color);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .blog-date {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+        .read-more {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .read-more:hover {
+            color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="Prueba.html">Rad Pathway Solutions</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Prueba.html#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Prueba.html#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Prueba.html#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Header -->
+    <header class="blog-header text-center">
+        <div class="container">
+            <h1 class="display-4">Noticias y Actualizaciones</h1>
+            <p class="lead">Información relevante sobre el mundo de la radiología y el camino hacia la certificación ABR</p>
+        </div>
+    </header>
+
+    <!-- Blog Content -->
+    <main class="container py-5">
+        <div class="row">
+            <!-- Blog Post 1 -->
+            <div class="col-md-8 mx-auto">
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Escasez de Radiólogos">
+                    <div class="card-body">
+                        <div class="blog-category mb-2">Tendencias del Mercado</div>
+                        <h3 class="card-title h4">Escasez de Radiólogos: Un Desafío que Persistirá hasta 2055</h3>
+                        <p class="card-text">Nuevo estudio revela que la escasez de radiólogos en EE.UU. continuará hasta 2055 si no se toman medidas efectivas. Según el estudio del Neiman Health Policy Institute, la demanda de servicios de radiología superará la oferta de profesionales en las próximas décadas.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="blog-date">12 Febrero 2024</span>
+                            <a href="https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/radiologist-shortage-will-persist-2055-without-counteraction" target="_blank" class="read-more">Leer más <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Rad Pathway Solutions</h5>
+                    <p>Empowering radiologists to achieve balance, success, and a sustainable future.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <h5>Contacto</h5>
+                    <p>Email: info@radpathwaysolutions.com<br>
+                    Tel: +1 (555) 123-4567</p>
+                    <div class="social-links mt-3">
+                        <a href="https://www.instagram.com/radpathwaysolutions" target="_blank" class="text-white text-decoration-none me-3">
+                            <i class="fab fa-instagram"></i>
+                            <span class="ms-1">@radpathwaysolutions</span>
+                        </a>
+                        <a href="https://www.facebook.com/share/1BtmoCEHJy/?mibextid=wwXIfr" target="_blank" class="text-white text-decoration-none me-3">
+                            <i class="fab fa-facebook"></i>
+                            <span class="ms-1">Rad Pathway Solutions</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
